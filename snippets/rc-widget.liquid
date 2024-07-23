@@ -1,5 +1,5 @@
 
-{% if product.selected_selling_plan != blank %}
+{% if product.selling_plan_groups != blank %}
 <div class="rc-widget__wrapper">
 <div class="rc-widget__inner_wrapper">
 <div class="rc__widget_inner_cus">
@@ -11,7 +11,7 @@
            {{ settings.substext }}
          </div>
         {% endif %}
-        <select class="select trigger_sp__select">
+        <select class="select trigger_sp__select" id="selling-plan-select">
             {% for selling_plan_group in product.selling_plan_groups %}
                 
                     {% for s_selling_plan in selling_plan_group.selling_plans %}
@@ -30,6 +30,7 @@
             {% endfor %}
         
         </select>
+
 </div>
 {% endunless %}
 {% endif %}
