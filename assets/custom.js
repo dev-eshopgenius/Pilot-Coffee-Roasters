@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
- $('.buy-buttons').on('click', function(event) {
+ $('.shopify-product-form .buy-buttons').on('click', function(event) {
     event.preventDefault();
     alert('hjdjdkd');
     var variantId = $('.shopify-product-form input[name=id]').val();
