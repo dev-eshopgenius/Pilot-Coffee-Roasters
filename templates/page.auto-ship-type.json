@@ -1,0 +1,76 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "show_title": true,
+        "page_width": "xs"
+      }
+    },
+    "media_grid_KXzfbj": {
+      "type": "media-grid",
+      "blocks": {
+        "image_b7GHxa": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify:\/\/shop_images\/Coffee_category_page_hero_banner_mobile_2.jpg",
+            "column_count": "6",
+            "row_count": 2,
+            "title": "Filter Methods",
+            "heading_tag": "h4",
+            "content": "<p>Selections that perform well on Kalita Wave, AeroPress, V60, French Press and automatic drip machines.<\/p>",
+            "link_text": "Select",
+            "link_url": "",
+            "link_style": "solid",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "image_EeFmwF": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify:\/\/shop_images\/Image_6_56010974-73db-4590-bec0-a0a432a188ea.jpg",
+            "column_count": "6",
+            "row_count": 2,
+            "title": "Feature Espresso",
+            "heading_tag": "h4",
+            "content": "<p>Selections that perform well on espresso machines and Moka pots.<\/p>",
+            "link_text": "Select",
+            "link_url": "",
+            "link_style": "solid",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "image_b7GHxa",
+        "image_EeFmwF"
+      ],
+      "custom_css": [
+        "p {font-size: 22px; }"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "desktop_row_height": 290,
+        "mobile_row_height": 180,
+        "section_width": "full",
+        "spacing": "none",
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "media_grid_KXzfbj"
+  ]
+}

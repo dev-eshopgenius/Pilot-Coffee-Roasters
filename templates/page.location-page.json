@@ -1,0 +1,365 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "show_title": false,
+        "page_width": "xs"
+      }
+    },
+    "image_with_text_overlay_qALUpx": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_hw8iUY": {
+          "type": "heading",
+          "settings": {
+            "text": "Cafe Locator",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_hw8iUY"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "image_size": "md",
+        "image": "shopify:\/\/shop_images\/Locatoons_header_desktop_d879bfd8-147f-4c42-855c-4467a0ddf636.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/Locatoons_header_mobile.jpg",
+        "allow_transparent_header": true,
+        "reveal_on_scroll": false,
+        "remove_vertical_spacing": true,
+        "content_width": "md",
+        "mobile_text_position": "place-self-end-center text-center",
+        "desktop_text_position": "sm:place-self-center-start sm:text-start",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "custom_liquid_NPzAhw": {
+      "type": "custom-liquid",
+      "settings": {
+        "color_scheme": "scheme-2",
+        "separate_section_with_border": false,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<div id='storemapper' style='width:100%;'>\n  <p>Cafe locator is loading...<\/p>\n<\/div>\n<script data-storemapper-start='2024,07,02'\n        data-storemapper-id='26992-8fhpesVgKnaQ5aIJ'>\n        (function() {var script = document.createElement('script');\n          script.type  = 'text\/javascript';script.async = true;\n          script.src = 'https:\/\/www.storemapper.co\/js\/widget-3.min.js';\n          var entry = document.getElementsByTagName('script')[0];\n          entry.parentNode.insertBefore(script, entry);}\n        ());\n<\/script>",
+        "text_alignment": "start"
+      }
+    },
+    "multi_column_Nywmww": {
+      "type": "multi-column",
+      "blocks": {
+        "image_with_text_MkeJAH": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ossington-cafe.webp",
+            "title": "Ossington",
+            "heading_tag": "h3",
+            "content": "<p><a href=\"\/pages\/locations\" title=\"Locations\">117 Ossington Avenue, <br\/>Toronto, ON M6J 2Z2<\/a><\/p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "image_with_text_F9WQAP": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/oakville-cafe.webp",
+            "title": "Oakville",
+            "heading_tag": "h3",
+            "content": "<p><a href=\"\/pages\/locations\" title=\"Locations\">251 Lakeshore Road E. <br\/>Oakville, ON L6J 1H9<\/a><\/p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "image_with_text_d9hntx": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Queen-east-cafe.webp",
+            "title": "Queen East",
+            "heading_tag": "h3",
+            "content": "<p><a href=\"\/pages\/locations\" title=\"Locations\">983 Queen Street E. <br\/>Toronto, ON M4M 1K2<\/a><\/p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "image_with_text_jcm9RA": {
+          "type": "image_with_text",
+          "settings": {
+            "title": "<strong>YONGE + ST. CLAIR<\/strong>",
+            "heading_tag": "h5",
+            "content": "<p>1 St. Clair Avenue E. <br\/>Toronto, M4T 2V7<\/p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "image_with_text_i7hfdQ": {
+          "type": "image_with_text",
+          "settings": {
+            "title": "<strong>RICHMOND<\/strong>",
+            "heading_tag": "h5",
+            "content": "<p>439 Richmond Street W. <br\/>Toronto, M5V 1X9<\/p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "image_with_text_RMCRxw": {
+          "type": "image_with_text",
+          "settings": {
+            "title": "<strong>WAGSTAFF TASTING BAR<\/strong>",
+            "heading_tag": "h5",
+            "content": "<p>50 Wagstaff Drive,<br\/>Toronto, M4L 3W9<\/p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "image_with_text_THD4xh": {
+          "type": "image_with_text",
+          "settings": {
+            "title": "<strong>UNION STATION<\/strong>",
+            "heading_tag": "h5",
+            "content": "<p>Front Street Promenade<br\/>65 Front Street W. <br\/>Toronto, M5J 1E6<\/p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "image_with_text_zY8zWn": {
+          "type": "image_with_text",
+          "settings": {
+            "title": "<strong>BAY + ADELAIDE<\/strong>",
+            "heading_tag": "h5",
+            "content": "<p>Bay Adelaide Centre<br\/>333 Bay Street, <br\/>Toronto, M5H 2R2<\/p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "image_with_text_G6hJgU": {
+          "type": "image_with_text",
+          "settings": {
+            "title": "<strong>BAY + BLOOR<\/strong>",
+            "heading_tag": "h5",
+            "content": "<p>Manulife Centre Main level South<br\/>55 Bloor Street W. <br\/>Toronto, M4W 1A6<\/p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "image_with_text_mMkaB6": {
+          "type": "image_with_text",
+          "settings": {
+            "title": "<strong>FIRST CANADIAN PLACE<\/strong>",
+            "heading_tag": "h5",
+            "content": "<p>100 King Street W. <br\/>Toronto - Concourse Level<br\/>M5H 4A6<\/p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "image_with_text_7Htqxe": {
+          "type": "image_with_text",
+          "settings": {
+            "title": "<strong>OAKVILLE<\/strong>",
+            "heading_tag": "h5",
+            "content": "<p>251 Lakeshore Road E. <br\/>Oakville, L6J 1H9<\/p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "image_with_text_JJyMdQ": {
+          "type": "image_with_text",
+          "settings": {
+            "title": "<strong>UPTOWN WATERLOO<\/strong>",
+            "heading_tag": "h5",
+            "content": "<p>114 King Street S. <br\/>Waterloo, N2J 1P5<\/p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_with_text_MkeJAH",
+        "image_with_text_F9WQAP",
+        "image_with_text_d9hntx",
+        "image_with_text_jcm9RA",
+        "image_with_text_i7hfdQ",
+        "image_with_text_RMCRxw",
+        "image_with_text_THD4xh",
+        "image_with_text_zY8zWn",
+        "image_with_text_G6hJgU",
+        "image_with_text_mMkaB6",
+        "image_with_text_7Htqxe",
+        "image_with_text_JJyMdQ"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "color_scheme": "scheme-2",
+        "separate_section_with_border": true,
+        "columns_per_row": 3,
+        "stack_on_mobile": true,
+        "overlap_image": false,
+        "content_alignment": "start",
+        "text_alignment": "start",
+        "spacing": "xs",
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    },
+    "image_with_text_overlay_RqcBH6": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_e4JQ86": {
+          "type": "heading",
+          "settings": {
+            "text": "BIG SUMMER MOOD",
+            "heading_tag": "h3"
+          }
+        },
+        "richtext_XpXqtp": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>New seasonal drinks for summer's finest days<\/p>"
+          }
+        },
+        "button_gqiFeC": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "Order ahead",
+            "url": "https:\/\/pilotcoffee.craverapp.com\/",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_e4JQ86",
+        "richtext_XpXqtp",
+        "button_gqiFeC"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "image_size": "sm",
+        "image": "shopify:\/\/shop_images\/Order_ahead_desktop_161fcdd0-d6e3-4725-ba21-454deb175af2.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/Order_ahead_mobile_ad0d2f2f-a859-4406-a344-43e330e59ec3.jpg",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": true,
+        "remove_vertical_spacing": true,
+        "content_width": "sm",
+        "mobile_text_position": "place-self-end-center text-center",
+        "desktop_text_position": "sm:place-self-center-start sm:text-start",
+        "overlay_color": "#000000",
+        "overlay_opacity": 5
+      }
+    },
+    "image_with_text_JaJrQd": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_mt6wcJ": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_CFUGLL": {
+          "type": "heading",
+          "settings": {
+            "text": "Download the app for ordering made easy",
+            "heading_tag": "h3"
+          }
+        },
+        "richtext_NP4TNt": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Sign up now and get 10% off your first in app order.<\/p>"
+          }
+        },
+        "liquid_JyBQMq": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<style>\n\n.storeLink {\n        position: relative;\n        display: inline-block;\n        width: 135px;\n        height: 40px;\n        border-radius: 16px;\n        overflow: hidden;\n\n    }\n\n    .storeLink > img {\n        --width: 79%;\n        position: absolute;\n        width: var(--width);\n        top: 50%;\n        left: 50%;\n        transform: translate(-50%, -50%);\n    }\na.\n    <\/style>\n\n        <a href=\"https:\/\/apps.apple.com\/ca\/app\/pilot-coffee-roasters\/id1536980386\" class=\"storeLink\"><img src=\"https:\/\/tools.applemediaservices.com\/api\/badges\/download-on-the-app-store\/black\/en-us?size=135x40&amp;releaseDate=1276560000&h=7e7b68fad19738b5649a1bfb78ff46e9\" alt=\"Download on the App Store\" ><\/a>\n        <a href='https:\/\/play.google.com\/store\/apps\/details?id=ca.craver.pilotcoffee&pcampaignid=web_share' class=\"storeLink\"><img alt='Get it on Google Play' src='https:\/\/play.google.com\/intl\/en_us\/badges\/images\/generic\/en_badge_web_generic.png' style=\"--width: 100%\";\/><\/a>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_mt6wcJ",
+        "heading_CFUGLL",
+        "richtext_NP4TNt",
+        "liquid_JyBQMq"
+      ],
+      "settings": {
+        "color_scheme": "scheme-2",
+        "separate_section_with_border": false,
+        "image": "shopify:\/\/shop_images\/Locations_App_desktop_25eb51cf-ec69-49f9-b12c-8a3160188627.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/Locations_App_mobile.jpg",
+        "reveal_on_scroll": true,
+        "image_position": "start",
+        "content_width": "md",
+        "remove_vertical_spacing": false
+      }
+    },
+    "faq_PHH6Ty": {
+      "type": "faq",
+      "blocks": {
+        "category_i4L69B": {
+          "type": "category",
+          "settings": {
+            "title": "Order",
+            "icon": "none",
+            "icon_width": 16
+          }
+        },
+        "question_KwjY4J": {
+          "type": "question",
+          "settings": {
+            "question": "Do you ship overseas?",
+            "answer": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>"
+          }
+        },
+        "question_jhz6iy": {
+          "type": "question",
+          "settings": {
+            "question": "How long will it take to get my orders?",
+            "answer": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.<\/p>"
+          }
+        },
+        "question_4MENbj": {
+          "type": "question",
+          "settings": {
+            "question": "Any question?",
+            "answer": "<p>You can contact us through our contact page! We will be happy to assist you.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "category_i4L69B",
+        "question_KwjY4J",
+        "question_jhz6iy",
+        "question_4MENbj"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "color_scheme": "scheme-2",
+        "separate_section_with_border": true,
+        "show_categories": false,
+        "subheading": "",
+        "title": "Frequently Asked Questions",
+        "content": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_overlay_qALUpx",
+    "custom_liquid_NPzAhw",
+    "multi_column_Nywmww",
+    "image_with_text_overlay_RqcBH6",
+    "image_with_text_JaJrQd",
+    "faq_PHH6Ty"
+  ]
+}

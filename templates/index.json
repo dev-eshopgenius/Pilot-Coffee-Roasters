@@ -1,0 +1,334 @@
+{
+  "sections": {
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "image_HtxPBx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Radial_Blend.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Radial_mobile_bf2082a2-0fd0-4aa7-869b-e5e96fd818f1.jpg",
+            "subheading": "New Release",
+            "title": "RADIAL SUMMER BLEND",
+            "mobile_text_position": "place-self-end-center text-center",
+            "desktop_text_position": "sm:place-self-center-start sm:text-start",
+            "content_max_width": 640,
+            "button_1_text": "Shop",
+            "button_1_link": "shopify:\/\/products\/radial-summer-blend",
+            "button_1_style": "solid",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "Learn More",
+            "button_2_link": "",
+            "button_2_style": "solid",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 0,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": ""
+          }
+        },
+        "slide-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Bernardina.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/Bernardina_mobile_ea02be8d-fce5-4040-819e-e523bf1588e0.jpg",
+            "subheading": "15 years - limited edition",
+            "title": "bernardina",
+            "mobile_text_position": "place-self-end-center text-center",
+            "desktop_text_position": "sm:place-self-center-start sm:text-start",
+            "content_max_width": 640,
+            "button_1_text": "Shop",
+            "button_1_link": "shopify:\/\/products\/san-juana-bernardina-el-salvador",
+            "button_1_style": "solid",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "Learn More",
+            "button_2_link": "",
+            "button_2_style": "solid",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 0,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": ""
+          }
+        },
+        "image_rQqgqn": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/SERRA_E_LEITE_desktop_7c6b9685-97e8-48dc-b413-4abcb1cd8e4d.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/SERRA_E_LEITE_mobile_5b0a66e0-63f1-4522-aed0-0d268fd69472.jpg",
+            "subheading": "New Release",
+            "title": "SERRA E LEITE",
+            "mobile_text_position": "place-self-end-center text-center",
+            "desktop_text_position": "sm:place-self-center-start sm:text-start",
+            "content_max_width": 640,
+            "button_1_text": "Shop",
+            "button_1_link": "shopify:\/\/products\/amber-cappucino-glass",
+            "button_1_style": "solid",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "Learn More",
+            "button_2_link": "",
+            "button_2_style": "solid",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 0,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_HtxPBx",
+        "slide-2",
+        "image_rQqgqn"
+      ],
+      "settings": {
+        "allow_transparent_header": true,
+        "show_next_section_button": true,
+        "media_size": "auto",
+        "show_initial_transition": false,
+        "autoplay": true,
+        "autoplay_pause_on_video": true,
+        "cycle_speed": 5,
+        "background": "#000000",
+        "controls_color": "#ffffff"
+      }
+    },
+    "featured_collections_hrhXHL": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_3xj6AL": {
+          "type": "collection",
+          "settings": {
+            "collection": "coffee",
+            "products_count": 3,
+            "title": "Latest Releases",
+            "link_url": "",
+            "link_text": "View all"
+          }
+        }
+      },
+      "block_order": [
+        "collection_3xj6AL"
+      ],
+      "settings": {
+        "color_scheme": "scheme-2",
+        "separate_section_with_border": true,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 3,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": ""
+      }
+    },
+    "image_with_text_overlay_4BKJta": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_GcM8Px": {
+          "type": "heading",
+          "settings": {
+            "text": "BREW GUIDE",
+            "heading_tag": "h2"
+          }
+        },
+        "richtext_GUfi3e": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
+          }
+        },
+        "button_EBP4xL": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "Button text",
+            "url": "",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_GcM8Px",
+        "richtext_GUfi3e",
+        "button_EBP4xL"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "image_size": "sm",
+        "image": "shopify:\/\/shop_images\/PCR_PDP_Origin_Section_4.jpg",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": true,
+        "remove_vertical_spacing": true,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center-start sm:text-start",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "media_grid_JwXWdp": {
+      "type": "media-grid",
+      "blocks": {
+        "image_9YMifg": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify:\/\/shop_images\/gear.jpg",
+            "column_count": "6",
+            "row_count": 2,
+            "title": "Equipment HEADLINE",
+            "heading_tag": "h2",
+            "content": "",
+            "link_text": "CTA COPY",
+            "link_url": "shopify:\/\/collections\/equipment",
+            "link_style": "solid",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "image_RmPjxq": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "scheme-4",
+            "image": "shopify:\/\/shop_images\/cupping_d035a59e-c3d3-483f-8a55-468d9725e19e.jpg",
+            "column_count": "6",
+            "row_count": 2,
+            "title": "CUPPING EVENT HEADLINE",
+            "heading_tag": "h2",
+            "content": "",
+            "link_text": "CTA COPY",
+            "link_url": "https:\/\/www.exploretock.com\/pilot-coffee-roasters-toronto\/event\/442939\/coffee-tasting-palate-development",
+            "link_style": "solid",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "image_9YMifg",
+        "image_RmPjxq"
+      ],
+      "settings": {
+        "color_scheme": "scheme-2",
+        "separate_section_with_border": false,
+        "desktop_row_height": 300,
+        "mobile_row_height": 200,
+        "section_width": "lg",
+        "spacing": "md",
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    },
+    "image_with_text_TdCfRn": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_egXUdP": {
+          "type": "heading",
+          "settings": {
+            "text": "COFFEE SUBSCRIPTIONS",
+            "heading_tag": "h2"
+          }
+        },
+        "richtext_EA8kdd": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Our <strong>PREPAID<\/strong> and <strong>PAY-AS-YOU-GO<\/strong> subscriptions are easy to create and flexible to fit your coffee routine. Select your favourite coffees, bag quantity, delivery frequency and we will take care of the rest!<\/p><p>Never run out of great coffee again!<\/p>"
+          }
+        },
+        "button_bg49Wc": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "CREATE YOUR SUBSCRIPTION",
+            "url": "shopify:\/\/pages\/subscription-landing-page",
+            "background": "#1c1c1c",
+            "text_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "heading_egXUdP",
+        "richtext_EA8kdd",
+        "button_bg49Wc"
+      ],
+      "settings": {
+        "color_scheme": "scheme-2",
+        "separate_section_with_border": true,
+        "image": "shopify:\/\/shop_images\/Subscriptions_52030aaa-dd73-493a-ac6e-46c6508daae1.jpg",
+        "reveal_on_scroll": true,
+        "image_position": "end",
+        "content_width": "lg",
+        "remove_vertical_spacing": false
+      }
+    },
+    "image_with_text_overlay_pCagUg": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_VmnaKM": {
+          "type": "heading",
+          "settings": {
+            "text": "VISIT OUR CAFES",
+            "heading_tag": "h2"
+          }
+        },
+        "richtext_rgUepq": {
+          "type": "richtext",
+          "settings": {
+            "content": ""
+          }
+        },
+        "button_ywtmM7": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "Find A Location",
+            "url": "shopify:\/\/pages\/locations",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_VmnaKM",
+        "richtext_rgUepq",
+        "button_ywtmM7"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "image_size": "sm",
+        "image": "shopify:\/\/shop_images\/cafe_desktop_9bfa6930-5f72-4ff7-84af-596f36e77fe9.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/cafe_cd6a4bb6-b61c-469e-80e4-c8df4d578d6c.jpg",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": true,
+        "remove_vertical_spacing": true,
+        "content_width": "sm",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "overlay_color": "#000000",
+        "overlay_opacity": 15
+      }
+    }
+  },
+  "order": [
+    "slideshow",
+    "featured_collections_hrhXHL",
+    "image_with_text_overlay_4BKJta",
+    "media_grid_JwXWdp",
+    "image_with_text_TdCfRn",
+    "image_with_text_overlay_pCagUg"
+  ]
+}

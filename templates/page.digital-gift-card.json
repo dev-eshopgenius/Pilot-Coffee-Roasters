@@ -1,0 +1,51 @@
+{
+  "sections": {
+    "image_with_text_overlay_ytKqXY": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_VE4eXG": {
+          "type": "heading",
+          "settings": {
+            "text": "Image with text overlay",
+            "heading_tag": "h4"
+          }
+        },
+        "richtext_DFMB7d": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_VE4eXG",
+        "richtext_DFMB7d"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "image_size": "md",
+        "image": "shopify:\/\/shop_images\/Queen-east-cafe.webp",
+        "allow_transparent_header": true,
+        "reveal_on_scroll": true,
+        "remove_vertical_spacing": true,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center-start sm:text-start",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "color_scheme": "scheme-2",
+        "show_title": false,
+        "page_width": "full"
+      }
+    }
+  },
+  "order": [
+    "image_with_text_overlay_ytKqXY",
+    "main"
+  ]
+}

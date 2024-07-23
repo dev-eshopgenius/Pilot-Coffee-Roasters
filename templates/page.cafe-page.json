@@ -1,0 +1,104 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "show_title": false,
+        "page_width": "xs"
+      }
+    },
+    "image_with_text_cnfVgg": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_7in6MA": {
+          "type": "heading",
+          "settings": {
+            "text": "Ossington",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_8JYnM9": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><a href=\"https:\/\/maps.app.goo.gl\/BvcJxiRrn6xKmh6D6\" title=\"https:\/\/maps.app.goo.gl\/BvcJxiRrn6xKmh6D6\">117 Ossington Avenue<br\/>Toronto, ON M6N3K4<br\/><\/a><\/p>"
+          }
+        },
+        "richtext_9j7qRG": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Sunday: 8:00 AM — 5:00 PM<br\/>Monday: 8:00 AM —5:00 PM<br\/>Tuesday: 8:00 AM — 6:00 PM<br\/>Wednesday: 8:00 AM —6:00 PM<br\/>Thursday: 8:00 AM — 6:00 PM<br\/>Friday: 8:00 AM — 6:00 PM<br\/>Saturday: 8:00 AM — 6:00 PM<\/p>"
+          }
+        },
+        "button_cAThri": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "Cafe pick up or delivery",
+            "url": "shopify:\/\/pages\/gift-card",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_7in6MA",
+        "richtext_8JYnM9",
+        "richtext_9j7qRG",
+        "button_cAThri"
+      ],
+      "custom_css": [
+        "image-with-text {padding-left: 50px; scroll-padding-right: 50px;}"
+      ],
+      "settings": {
+        "color_scheme": "scheme-2",
+        "separate_section_with_border": false,
+        "image": "shopify:\/\/shop_images\/Ossington-cafe.webp",
+        "reveal_on_scroll": true,
+        "image_position": "start",
+        "content_width": "sm",
+        "remove_vertical_spacing": false
+      }
+    },
+    "image_with_text_c6jaRT": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_BMmkzU": {
+          "type": "heading",
+          "settings": {
+            "text": "Download the App For Ordering Made Easy",
+            "heading_tag": "h2"
+          }
+        },
+        "richtext_RnUDYC": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Sign up now and get 10% off your first in app order.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_BMmkzU",
+        "richtext_RnUDYC"
+      ],
+      "custom_css": [
+        "img {padding-left: 200px; padding-right: 250px; border: 0px; margin: 0px;}"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "image": "shopify:\/\/shop_images\/Iphone_Mockup_NOLA_D2_1.webp",
+        "reveal_on_scroll": true,
+        "image_position": "end",
+        "content_width": "sm",
+        "remove_vertical_spacing": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_cnfVgg",
+    "image_with_text_c6jaRT"
+  ]
+}

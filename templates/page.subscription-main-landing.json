@@ -1,0 +1,393 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "show_title": false,
+        "page_width": "full"
+      }
+    },
+    "image_with_text_overlay_iz4KQa": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_wm3WFH": {
+          "type": "heading",
+          "settings": {
+            "text": "It’s not just coffee, it’s a lifestyle",
+            "heading_tag": "h2"
+          }
+        },
+        "richtext_R7MkWz": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Personalized subscriptions that enhance your daily routine.<\/p>"
+          }
+        },
+        "button_TrUAFn": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "Get Started",
+            "url": "#get-started",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_wm3WFH",
+        "richtext_R7MkWz",
+        "button_TrUAFn"
+      ],
+      "settings": {
+        "color_scheme": "scheme-4",
+        "image_size": "md",
+        "image": "shopify:\/\/shop_images\/PCR_Subscription_Page_1_6e3eef52-0ea4-457c-ae2b-53ce4db8a9be.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/PCR_Subscription_Page_2_70240f48-3ec4-4297-92de-655acd0253d7.jpg",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": true,
+        "remove_vertical_spacing": true,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center-start text-start",
+        "desktop_text_position": "sm:place-self-center-start sm:text-start",
+        "overlay_color": "#000000",
+        "overlay_opacity": 5
+      }
+    },
+    "rich_text_yBNkHz": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_tW6yNY": {
+          "type": "heading",
+          "settings": {
+            "text": "Favourite Features",
+            "heading_tag": "h3"
+          }
+        },
+        "richtext_mjiRQr": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Our subscriptions move in lockstep with your needs.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_tW6yNY",
+        "richtext_mjiRQr"
+      ],
+      "settings": {
+        "color_scheme": "scheme-2",
+        "separate_section_with_border": true,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "text_with_icons_3iHF98": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item_trimiN": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-award-gift",
+            "icon_width": 32,
+            "mobile_icon_width": 32,
+            "title": "<strong>Save on every order<\/strong>",
+            "content": "<p>Free shipping - 10% off<\/p>"
+          }
+        },
+        "item_GxHx7K": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-calendar",
+            "icon_width": 32,
+            "mobile_icon_width": 32,
+            "title": "<strong>Modify<\/strong>",
+            "content": "<p>Update of cancel anytime.<\/p>"
+          }
+        },
+        "item_GLfVpd": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-box",
+            "icon_width": 32,
+            "mobile_icon_width": 32,
+            "title": "<strong>Amplify<\/strong>",
+            "content": "<p>Add a bag to your next delivery<\/p>"
+          }
+        },
+        "item_jr83km": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-success",
+            "icon_width": 32,
+            "mobile_icon_width": 32,
+            "title": "<strong>Pause<\/strong>",
+            "content": "<p>Skip a shipment if you’re well-stocked<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_trimiN",
+        "item_GxHx7K",
+        "item_GLfVpd",
+        "item_jr83km"
+      ],
+      "settings": {
+        "color_scheme": "scheme-2",
+        "separate_section_with_border": false,
+        "stack_on_mobile": true,
+        "icon_color": "",
+        "text_color": "",
+        "text_alignment": "center"
+      }
+    },
+    "custom_liquid_67WiiE": {
+      "type": "custom-liquid",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": false,
+        "liquid": "<a id=\"get-started\" class=\"anchor\"><\/a>",
+        "text_alignment": "center"
+      }
+    },
+    "media_grid_mrirwU": {
+      "type": "media-grid",
+      "blocks": {
+        "image_Waid3d": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "scheme-4",
+            "image": "shopify:\/\/shop_images\/PCR_Subscription_Page_3.jpg",
+            "column_count": "6",
+            "row_count": 2,
+            "title": "AUTOPILOT",
+            "heading_tag": "h3",
+            "content": "<p>Trust the process and we’ll send two of our most compelling single origin coffees monthly.<\/p>",
+            "link_text": "Subscribe to Autopilot",
+            "link_url": "shopify:\/\/pages\/auto-ship-type",
+            "link_style": "solid",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 45
+          }
+        },
+        "image_Mccw8w": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify:\/\/shop_images\/PCR_Subscription_Page_4.jpg",
+            "column_count": "6",
+            "row_count": 2,
+            "title": "CUSTOMIZED",
+            "heading_tag": "h3",
+            "content": "<p>Handpick your personal favourites and get them delivered on your schedule.<\/p>",
+            "link_text": "Subscribe to Customized",
+            "link_url": "",
+            "link_style": "solid",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 45
+          }
+        }
+      },
+      "block_order": [
+        "image_Waid3d",
+        "image_Mccw8w"
+      ],
+      "settings": {
+        "color_scheme": "scheme-2",
+        "separate_section_with_border": true,
+        "desktop_row_height": 300,
+        "mobile_row_height": 200,
+        "section_width": "lg",
+        "spacing": "md",
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    },
+    "image_with_text_overlay_ExgNGG": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "richtext_ymygWz": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>“You don’t need to be a connoisseur; <br\/>if your routine depends on consistently great coffee, <br\/>a subscription is your saving grace.\"<\/p>"
+          }
+        },
+        "richtext_p8j8fC": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h5><strong>TIFF BHAGWANDIN<br\/><\/strong>HEAD ROASTER<\/h5>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_ymygWz",
+        "richtext_p8j8fC"
+      ],
+      "custom_css": [
+        "p {font-size: 18px;}"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "image_size": "sm",
+        "image": "shopify:\/\/shop_images\/PCR_Subscription_Page_5_58223c4c-7f63-4df4-893c-fe659d9d43cd.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/PCR_Subscription_Page_6.jpg",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": true,
+        "remove_vertical_spacing": true,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "rich_text_cHW4YW": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_9fqREf": {
+          "type": "heading",
+          "settings": {
+            "text": "More Ways to Subscribe",
+            "heading_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "heading_9fqREf"
+      ],
+      "settings": {
+        "color_scheme": "scheme-2",
+        "separate_section_with_border": true,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "media_grid_kKCGhB": {
+      "type": "media-grid",
+      "blocks": {
+        "image_pMcxrH": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify:\/\/shop_images\/PCR_Subscription_Page_7_d1b7c359-7e6a-4b9f-82a2-63001baef7d9.jpg",
+            "column_count": "6",
+            "row_count": 2,
+            "title": "GIFT",
+            "heading_tag": "h3",
+            "content": "<p>The gift that keeps on brewing. Select the number of shipments and leave the rest to the lucky recipient.<\/p>",
+            "link_text": "Give A Gift",
+            "link_url": "",
+            "link_style": "solid",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 45
+          }
+        },
+        "image_Tp6LYH": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify:\/\/shop_images\/PCR_Subscription_Page_8_5a0f0d94-1bf5-440a-ab6c-4b03ca4da71f.jpg",
+            "column_count": "6",
+            "row_count": 2,
+            "title": "PRE-PAID",
+            "heading_tag": "h3",
+            "content": "<p>Buy now, brew later. Commit to a coffee plan for 3-12 months.<\/p>",
+            "link_text": "Subscribe to Pre-paid",
+            "link_url": "",
+            "link_style": "solid",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 45
+          }
+        }
+      },
+      "block_order": [
+        "image_pMcxrH",
+        "image_Tp6LYH"
+      ],
+      "settings": {
+        "color_scheme": "scheme-2",
+        "separate_section_with_border": false,
+        "desktop_row_height": 300,
+        "mobile_row_height": 200,
+        "section_width": "lg",
+        "spacing": "md",
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    },
+    "faq_ga78xL": {
+      "type": "faq",
+      "blocks": {
+        "question_6FyxXV": {
+          "type": "question",
+          "settings": {
+            "question": "What are the benefits of subscribing?",
+            "answer": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.<\/p>"
+          }
+        },
+        "question_xajF7Y": {
+          "type": "question",
+          "settings": {
+            "question": "Where do you ship to? Is it free?",
+            "answer": "<p>Write a clear and concise answer to guide your customers.<\/p>"
+          }
+        },
+        "question_aJrA6k": {
+          "type": "question",
+          "settings": {
+            "question": "What if I want to cancel?",
+            "answer": "<p>You can cancel your subscription at any time. You can do so through your account or send us a message here and we will take care of it for you. Coffee cannot be returned or refunded due to its perishable nature.<\/p>"
+          }
+        },
+        "question_PYnWFK": {
+          "type": "question",
+          "settings": {
+            "question": "Can I change my subscription?",
+            "answer": "<p>You can contact us through our contact page! We will be happy to assist you.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_6FyxXV",
+        "question_xajF7Y",
+        "question_aJrA6k",
+        "question_PYnWFK"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "color_scheme": "scheme-2",
+        "separate_section_with_border": true,
+        "show_categories": false,
+        "subheading": "Understanding your subscription",
+        "title": "Frequently Asked Questions",
+        "content": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_overlay_iz4KQa",
+    "rich_text_yBNkHz",
+    "text_with_icons_3iHF98",
+    "custom_liquid_67WiiE",
+    "media_grid_mrirwU",
+    "image_with_text_overlay_ExgNGG",
+    "rich_text_cHW4YW",
+    "media_grid_kKCGhB",
+    "faq_ga78xL"
+  ]
+}

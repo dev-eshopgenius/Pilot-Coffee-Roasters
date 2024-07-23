@@ -1,0 +1,468 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h3"
+          }
+        },
+        "text_AtwBmM": {
+          "type": "text",
+          "settings": {
+            "text": "<p>{{ product.metafields.custom.coffee_tasting_notes | metafield_tag }}<\/p>"
+          }
+        },
+        "image_B4YAm7": {
+          "type": "image",
+          "settings": {
+            "image": "{{ product.metafields.custom.roast_level.value }}",
+            "alignment": "start",
+            "width_mode": "custom",
+            "max_width": 250,
+            "mobile_max_width": 250
+          }
+        },
+        "feature_with_icon_3RMdnV": {
+          "type": "feature_with_icon",
+          "disabled": true,
+          "settings": {
+            "text": "Direct Trade",
+            "link": "",
+            "icon": "picto-earth",
+            "icon_width": 16,
+            "background": "#ffffff",
+            "text_color": "#6b6b6b",
+            "border_color": ""
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "collapse_content": false,
+            "show_below_gallery": false
+          }
+        },
+        "separator": {
+          "type": "separator",
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "rating_4yBzKH": {
+          "type": "rating",
+          "disabled": true,
+          "settings": {
+            "show_empty": true,
+            "rating_mode": "rating"
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": true,
+            "selector_style": "dropdown",
+            "swatch_selector_style": "swatch",
+            "variant_image_options": "",
+            "size_chart_page": "grind"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": false,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "pickup_availability_PNE4Wh": {
+          "type": "pickup_availability",
+          "settings": {
+          }
+        },
+        "complementary_products": {
+          "type": "complementary_products",
+          "settings": {
+            "title": "Pair with",
+            "products_count": 2,
+            "show_below_gallery": true,
+            "stack_products": true,
+            "show_quick_buy": true
+          }
+        },
+        "feature_with_icon_ntEVF8": {
+          "type": "feature_with_icon",
+          "settings": {
+            "text": "Compostable Packaging",
+            "link": "",
+            "icon": "picto-leaf",
+            "icon_width": 16,
+            "background": "#ffffff",
+            "text_color": "#6b6b6b",
+            "border_color": ""
+          }
+        },
+        "accordion_7UitJi": {
+          "type": "accordion",
+          "settings": {
+            "show_below_gallery": true,
+            "icon": "picto-info",
+            "title": "Ground Coffee",
+            "content": "<p>Share some content to your customers about your products.<\/p>",
+            "liquid": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "text_AtwBmM",
+        "image_B4YAm7",
+        "feature_with_icon_3RMdnV",
+        "description",
+        "separator",
+        "price",
+        "rating_4yBzKH",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "pickup_availability_PNE4Wh",
+        "complementary_products",
+        "feature_with_icon_ntEVF8",
+        "accordion_7UitJi"
+      ],
+      "settings": {
+        "color_scheme": "scheme-2",
+        "container_size": "xl",
+        "product_info_size": 40,
+        "show_sticky_add_to_cart": true,
+        "center_basic_info": false,
+        "desktop_media_layout": "grid_2x_highlighted",
+        "desktop_media_grid_gap": 20,
+        "mobile_controls": "free_scroll",
+        "enable_media_autoplay": true,
+        "enable_video_looping": true,
+        "enable_image_zoom": false,
+        "max_image_zoom_level": 3
+      }
+    },
+    "rich_text_WNpdd8": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_xHqfe7": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_T7RGG7": {
+          "type": "heading",
+          "settings": {
+            "text": "more information",
+            "heading_tag": "h3"
+          }
+        },
+        "richtext_NM6y6W": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_xHqfe7",
+        "heading_T7RGG7",
+        "richtext_NM6y6W"
+      ],
+      "settings": {
+        "color_scheme": "scheme-ff2e074f-9c34-4835-8895-bc4108092f30",
+        "separate_section_with_border": false,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "text_with_icons_QGbhnJ": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item_PyRaRM": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-delivery-truck",
+            "custom_icon": "shopify:\/\/shop_images\/Coffee_Detail_Icons_VARIETAL.png",
+            "icon_width": 32,
+            "mobile_icon_width": 32,
+            "title": "<strong>VARIETAL<\/strong>",
+            "content": "<p>{{ product.metafields.custom.varietal.value }}<\/p>"
+          }
+        },
+        "item_xajbVA": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-customer-support",
+            "custom_icon": "shopify:\/\/shop_images\/Coffee_Detail_Icons_PROCESS_96a4f8b8-716a-4417-a445-aed0c1ac4a1f.png",
+            "icon_width": 32,
+            "mobile_icon_width": 32,
+            "title": "<strong>PROCESS<\/strong>",
+            "content": "<p>{{ product.metafields.custom.process.value }}<\/p>"
+          }
+        },
+        "item_wpAXW6": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-shield",
+            "custom_icon": "shopify:\/\/shop_images\/Coffee_Detail_Icons_ALTITUDE.png",
+            "icon_width": 32,
+            "mobile_icon_width": 32,
+            "title": "<strong>ALTITUDE<\/strong>",
+            "content": "<p>{{ product.metafields.custom.altitude.value }}<\/p>"
+          }
+        },
+        "item_9tjnec": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-award-gift",
+            "custom_icon": "shopify:\/\/shop_images\/Coffee_Detail_Icons_COUNTRY.png",
+            "icon_width": 24,
+            "mobile_icon_width": 24,
+            "title": "<strong>Origin<\/strong>",
+            "content": "<p>{{ product.metafields.custom.region.value }}, {{ product.metafields.custom.country_of_origin.value }}<br\/><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_PyRaRM",
+        "item_xajbVA",
+        "item_wpAXW6",
+        "item_9tjnec"
+      ],
+      "settings": {
+        "color_scheme": "scheme-ff2e074f-9c34-4835-8895-bc4108092f30",
+        "separate_section_with_border": false,
+        "stack_on_mobile": true,
+        "icon_color": "",
+        "text_color": "",
+        "text_alignment": "center"
+      }
+    },
+    "images_with_text_scroll_Q9fQ9V": {
+      "type": "images-with-text-scroll",
+      "blocks": {
+        "image_with_text_nhaQRM": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PCR_PDP_Origin_Section_1_38a5baf4-7007-43cb-96ca-026e059c4ca4.jpg",
+            "subheading": "People & Place",
+            "title": "Luiz Zanetti, Serre e Leite",
+            "content": "<p>Luiz Zanetti and his brother run Sitio Serra e Leite which stands apart from many of its compatriots. It’s a small, hands-on operation in Brazil’s vast landscape of massive plantations. Luiz is somewhat of an unsung hero to our program. His coffees are often used in our blends for their clean fruit notes and creamy body. <br\/><br\/>Luiz has been a Direct Trade partner of ours since 2015 and contributed greatly to our flavour identity.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "solid"
+          }
+        },
+        "image_with_text_8ddweJ": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/PCR_PDP_Origin_Section_2.jpg",
+            "subheading": "The Land",
+            "title": "Poços De Caldas, Brazil",
+            "content": "<p>TBD<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "solid"
+          }
+        }
+      },
+      "block_order": [
+        "image_with_text_nhaQRM",
+        "image_with_text_8ddweJ"
+      ],
+      "settings": {
+        "color_scheme": "scheme-2",
+        "image_position": "end",
+        "text_alignment": "center",
+        "heading_tag": "h3",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "image_with_text_overlay_DC97ag": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_NJhMUK": {
+          "type": "heading",
+          "settings": {
+            "text": "Brew Methods & Recommendations",
+            "heading_tag": "h3"
+          }
+        },
+        "richtext_6LAbE7": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
+          }
+        },
+        "button_wMbGRy": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "Button text",
+            "url": "",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_NJhMUK",
+        "richtext_6LAbE7",
+        "button_wMbGRy"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/PCR_PDP_Origin_Section_4_05227f11-f1ab-45a8-aad2-924775b95c6f.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/PCR_PDP_Origin_Section_5_46182419-c7f7-435b-a17d-6aa7472c3248.jpg",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": true,
+        "remove_vertical_spacing": true,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "images_with_text_scroll_J67x7G": {
+      "type": "images-with-text-scroll",
+      "blocks": {
+        "image_with_text_f4jmHP": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Radial_Parameter_Guide_Drip_e31c48c7-853c-45d8-823f-ac99de946641.jpg",
+            "subheading": "",
+            "title": "DRIP",
+            "content": "<p>Flavours of {{ product.metafields.custom.brew_parameters_flavour_1.value }} and {{ product.metafields.custom.brew_parameters_drip_flavour_2.value }}. {{ product.metafields.custom.brew_parameters_drip_acidity_level.value }} acidity, {{ product.metafields.custom.brew_parameters_drip_sweetness_level.value }} sweetness and {{ product.metafields.custom.brew_parameters_drip_body.value }} body.<\/p><p><strong>Brewer: <\/strong>{{ product.metafields.custom.recommended_drip_brew_method.value }}<br\/><strong>Ratio:<\/strong> {{ product.metafields.custom.brew_parameters_drip_ratio.value }}<strong><br\/>Coffee:<\/strong> {{ product.metafields.custom.drip_coffee_weight.value }}<br\/><strong>Water:<\/strong> {{ product.metafields.custom.drip_water_vol.value }}<br\/><strong>Brew Time: <\/strong>{{ product.metafields.custom.brew_parameters_drip_brew_time.value }}<br\/><strong>Rest Period: <\/strong>{{ product.metafields.custom.brew_parameters_drip_rest_period.value }}<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "solid"
+          }
+        },
+        "image_with_text_aJ4Rhf": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Radial_Parameter_Guide_Espresso_0ea6a799-9707-4915-a7fe-7b46f0fa780a.jpg",
+            "subheading": "",
+            "title": "ESPRESSO",
+            "content": "<p>Flavours of {{ product.metafields.custom.brew_parameters_espresso_flavour_1.value }} and {{ product.metafields.custom.brew_parameters_espresso_flavour_2.value }}. {{ product.metafields.custom.brew_parameters_espresso_acidity_level.value }} acidity, {{ product.metafields.custom.brew_parameters_espresso_sweetness_level.value }} sweetness and {{ product.metafields.custom.brew_parameters_espresso_body.value }} body.<br\/><br\/><strong>Ratio: <\/strong>{{ product.metafields.custom.brew_parameters_espresso_ratio.value }}<br\/><strong>Coffee: <\/strong>{{ product.metafields.custom.espresso_coffee_weight.value }}<br\/><strong>Water: <\/strong>{{ product.metafields.custom.espresso_water_vol.value }}<br\/><strong>Brew Time: <\/strong>{{ product.metafields.custom.brew_parameters_espresso_brew_time.value }}<strong><br\/>Rest Period: <\/strong>{{ product.metafields.custom.brew_parameters_espresso_rest_period.value }}<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "solid"
+          }
+        },
+        "image_with_text_fnMnb6": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Radial_Parameter_Guide_Immersion_654ea349-53cc-414e-bfcd-0daf280f1a42.jpg",
+            "subheading": "",
+            "title": "IMMERSION",
+            "content": "<p>Flavours of {{ product.metafields.custom.brew_parameters_immersion_flavour_1.value }} and {{ product.metafields.custom.brew_parameters_immersion_flavour_2.value }}. {{ product.metafields.custom.brew_parameters_immersion_acidity_level.value }} acidity, {{ product.metafields.custom.brew_parameters_immersion_sweetness_level.value }} sweetness and {{ product.metafields.custom.brew_parameters_immersion_body.value }} body.<\/p><p><strong>Brewer: <\/strong>{{ product.metafields.custom.recommended_immersion_method.value }}<br\/><strong>Ratio:<\/strong> {{ product.metafields.custom.brew_parameters_immersion_ratio.value }}<br\/><strong>Coffee:<\/strong> {{ product.metafields.custom.immersion_coffee_weight.value }} <br\/><strong>Water: <\/strong>{{ product.metafields.custom.immersion_coffee_weight.value }}<br\/><strong>Brew Time: <\/strong>{{ product.metafields.custom.brew_parameters_immersion_brew_time.value }}<br\/><strong>Rest Period: <\/strong>{{ product.metafields.custom.brew_parameters_immersion_rest_period.value }}<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "solid"
+          }
+        }
+      },
+      "block_order": [
+        "image_with_text_f4jmHP",
+        "image_with_text_aJ4Rhf",
+        "image_with_text_fnMnb6"
+      ],
+      "settings": {
+        "color_scheme": "scheme-2",
+        "image_position": "start",
+        "text_alignment": "center",
+        "heading_tag": "h3",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "color_scheme": "scheme-ff2e074f-9c34-4835-8895-bc4108092f30",
+        "separate_section_with_border": false,
+        "hide_product_information": false,
+        "stack_products": false,
+        "recommendations_count": 10,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": "",
+        "title": "Related products",
+        "content": ""
+      }
+    },
+    "1718726459488a68ed": {
+      "type": "apps",
+      "blocks": {
+        "recharge_subscriptions_bundles_widget_hXbhwa": {
+          "type": "shopify:\/\/apps\/recharge-subscriptions\/blocks\/bundles-widget\/371eed76-0b44-4869-9813-730372ea378e",
+          "disabled": true,
+          "settings": {
+            "product": "{{product}}",
+            "rb_theme_color": "#484848",
+            "rb_theme_text": "#ffffff",
+            "rb_theme_other_text": "#484848",
+            "rb_theme_bg": "#ffffff",
+            "rb_text_size": "14px",
+            "rb_spacing_width": 1220,
+            "rb_spacing_margins": "15px",
+            "rb_buttons_size": "15px",
+            "rb_buttons_corners": "4",
+            "rb_builder_items_per_row_ns": 4,
+            "rb_builder_items_per_row": "1",
+            "rb_builder_aspect_ratio": "100%",
+            "rb_builder_radius": "4"
+          }
+        }
+      },
+      "block_order": [
+        "recharge_subscriptions_bundles_widget_hXbhwa"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_WNpdd8",
+    "text_with_icons_QGbhnJ",
+    "images_with_text_scroll_Q9fQ9V",
+    "image_with_text_overlay_DC97ag",
+    "images_with_text_scroll_J67x7G",
+    "related-products",
+    "1718726459488a68ed"
+  ]
+}

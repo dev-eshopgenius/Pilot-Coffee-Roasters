@@ -1,0 +1,95 @@
+{
+  "type": "header",
+  "name": "Header group",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "message-1": {
+          "type": "message",
+          "settings": {
+            "text": "Complimentary shipping on all subscriptions and orders over $45"
+          }
+        }
+      },
+      "block_order": [
+        "message-1"
+      ],
+      "settings": {
+        "color_scheme": "scheme-3",
+        "enable_sticky": false,
+        "autoplay": true,
+        "cycle_speed": 5,
+        "desktop_font_size": 10,
+        "mobile_font_size": 10
+      }
+    },
+    "header": {
+      "type": "header",
+      "blocks": {
+        "mega_menu_TWErQP": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_item": "Shop",
+            "images_position": "right",
+            "image_1": "shopify:\/\/shop_images\/Mega_menu_1.jpg",
+            "image_1_heading": "Fellow Tally Precision Pro",
+            "image_1_text": "",
+            "image_1_link": "shopify:\/\/products\/fellow-tally-pro-precision-scale-studio-edition",
+            "image_2": "shopify:\/\/shop_images\/Mega_menu_2.jpg",
+            "image_2_heading": "Radial Blend",
+            "image_2_text": "",
+            "image_2_link": "shopify:\/\/products\/radial-summer-blend"
+          }
+        },
+        "mega_menu_FxNC7B": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_item": "Learn",
+            "images_position": "right",
+            "image_1": "shopify:\/\/shop_images\/Mega_menu_3.jpg",
+            "image_1_heading": "BREW GUIDES",
+            "image_1_text": "",
+            "image_1_link": "",
+            "image_2": "shopify:\/\/shop_images\/Mega_menu_4.jpg",
+            "image_2_heading": "classes + events",
+            "image_2_text": "",
+            "image_2_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "mega_menu_TWErQP",
+        "mega_menu_FxNC7B"
+      ],
+      "settings": {
+        "color_scheme": "scheme-2",
+        "enable_sticky": true,
+        "hide_on_scroll": true,
+        "show_separation_border": true,
+        "reduce_padding": true,
+        "logo": "{{ shop.brand.logo }}",
+        "logo_max_width": 190,
+        "logo_mobile_max_width": 100,
+        "menu": "main-page-menu-08-07-2024",
+        "sidebar_menu": "mobile-menu-18-06-2024",
+        "menu_open_trigger": "hover",
+        "enable_search": true,
+        "sidebar_color_scheme": "scheme-2",
+        "sidebar_text_font": "heading",
+        "sidebar_show_dividers": true,
+        "layout": "logo_center_navigation_inline",
+        "show_icons": true,
+        "show_country_selector": true,
+        "show_country_name": false,
+        "show_country_flag": true,
+        "show_locale_selector": false,
+        "transparent_header_text_color": "#ffffff"
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "header"
+  ]
+}

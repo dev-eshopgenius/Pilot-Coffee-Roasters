@@ -1,0 +1,120 @@
+{
+  "sections": {
+    "image_with_text_overlay_UXqyKC": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_YJGzj6": {
+          "type": "heading",
+          "settings": {
+            "text": "SHOP OUR SPECIALTY COFFEE",
+            "heading_tag": "h2"
+          }
+        },
+        "richtext_Q8kmqf": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>We exclusively source coffee from some of the worlds most sought after growing regions with an SCA score of 85+.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_YJGzj6",
+        "richtext_Q8kmqf"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "image_size": "md",
+        "image": "shopify:\/\/shop_images\/Coffee_category_page_hero_banner_desktop_2.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/Coffee_category_page_hero_banner_mobile_2.jpg",
+        "allow_transparent_header": true,
+        "reveal_on_scroll": true,
+        "remove_vertical_spacing": true,
+        "content_width": "sm",
+        "mobile_text_position": "place-self-end-center text-center",
+        "desktop_text_position": "sm:place-self-center-start sm:text-start",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "rich_text_rkQiXF": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_ULtdGL": {
+          "type": "heading",
+          "settings": {
+            "text": "Shop Our Specialty Coffee",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_JgpCCK": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>We exclusively source coffee from some of the worlds most sought after growing regions with an SCA score of 85+. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_ULtdGL",
+        "richtext_JgpCCK"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "scheme-2",
+        "separate_section_with_border": true,
+        "content_width": "lg",
+        "text_position": "start",
+        "remove_vertical_spacing": false
+      }
+    },
+    "collection-banner": {
+      "type": "collection-banner",
+      "disabled": true,
+      "custom_css": [
+
+      ],
+      "settings": {
+        "color_scheme": "scheme-4",
+        "image": "shopify:\/\/shop_images\/Mega_menu_3.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/gear.jpg",
+        "image_size": "sm",
+        "allow_transparent_header": true,
+        "reveal": false,
+        "enable_parallax": false,
+        "show_image": true,
+        "show_collection_title": true,
+        "show_collection_description": true,
+        "show_breadcrumb": true,
+        "content_width": "md",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "settings": {
+        "color_scheme": "scheme-2",
+        "hide_product_information": false,
+        "products_per_page": 48,
+        "products_per_row_mobile": "1",
+        "products_size_desktop": "large",
+        "show_grid_mode_selector": false,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "filter_layout": "sidebar",
+        "quick_links_menu": "",
+        "show_sort_by": true,
+        "show_filters": true,
+        "show_results_count": false,
+        "show_filter_group_name": true,
+        "show_filter_values_count": false,
+        "open_filters_by_default": true
+      }
+    }
+  },
+  "order": [
+    "image_with_text_overlay_UXqyKC",
+    "rich_text_rkQiXF",
+    "collection-banner",
+    "main"
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "show_title": true,
+        "page_width": "xs"
+      }
+    },
+    "rich_text_kJrQUG": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_M7Y9iJ": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Already one of our wholesale partners? Login to our <a href=\"https:\/\/www.pcr.partners\/\"><span style=\"text-decoration:underline\">Partner Portal<\/span><\/a>.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_M7Y9iJ"
+      ],
+      "custom_css": [
+        "p {margin-top: 10px !important; margin-bottom: 10px !important;}"
+      ],
+      "settings": {
+        "color_scheme": "scheme-2",
+        "separate_section_with_border": true,
+        "content_width": "lg",
+        "text_position": "end",
+        "remove_vertical_spacing": true
+      }
+    },
+    "image_with_text_overlay_PV9UAq": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_jJQN8b": {
+          "type": "heading",
+          "settings": {
+            "text": "Wholesale Coffee",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_hqgeqQ": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Whether it's with the people who grow our coffee or the people who enjoy it, relationships are at the heart of what we do. That’s why we work collaboratively with like-minded partners to build exceptional coffee programs.<br\/><br\/>From consultation and training, to equipment sourcing and tech support, Pilot is your full service coffee partner.<\/p>"
+          }
+        },
+        "button_gVrJqK": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "Get it Touch",
+            "url": "",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_jJQN8b",
+        "richtext_hqgeqQ",
+        "button_gVrJqK"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "image_size": "auto",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": true,
+        "remove_vertical_spacing": true,
+        "content_width": "sm",
+        "mobile_text_position": "place-self-center-start text-start",
+        "desktop_text_position": "sm:place-self-center-start sm:text-start",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_kJrQUG",
+    "image_with_text_overlay_PV9UAq"
+  ]
+}
