@@ -31,7 +31,9 @@ Supported variables
   -%}
 
   <product-form>
+
     {%- form 'product', product, id: form_id -%}
+      
       <input type="hidden" {% if variant_picker_block != blank %}disabled{% endif %} name="id" value="{{ product.selected_or_first_available_variant.id }}">
 
       {% liquid
@@ -109,6 +111,7 @@ Supported variables
           {%- endif -%}
         </buy-buttons>
       </div>
+     
     {%- endform -%}
   </product-form>
 {%- else -%}

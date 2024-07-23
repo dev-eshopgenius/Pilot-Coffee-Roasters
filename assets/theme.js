@@ -3141,6 +3141,7 @@ if (!window.customElements.get("product-rerender")) {
 var _QuickBuyModal_instances, onAfterHide_fn;
 var QuickBuyModal = class extends Modal {
   constructor() {
+   
     super();
     __privateAdd(this, _QuickBuyModal_instances);
     if (window.themeVariables.settings.cartType === "drawer") {
@@ -3158,6 +3159,7 @@ var QuickBuyModal = class extends Modal {
     this.replaceChildren(quickBuyContent);
     Shopify?.PaymentButton?.init();
     return super.show();
+    
   }
 };
 _QuickBuyModal_instances = new WeakSet();
@@ -3167,6 +3169,9 @@ onAfterHide_fn = function() {
 if (!window.customElements.get("quick-buy-modal")) {
   window.customElements.define("quick-buy-modal", QuickBuyModal);
 }
+
+
+
 
 // js/common/product/variant-picker.js
 import { Delegate as Delegate5 } from "vendor";
@@ -5679,3 +5684,5 @@ window.rcLoginAccessLink = {
         },
     },
 };
+
+

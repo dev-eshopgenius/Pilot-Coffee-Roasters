@@ -31,7 +31,7 @@ Supported variables
         </button>
       </dialog-close-button>
 
-      <div class="quick-buy-modal__gallery-wrapper">
+      <div class="quick-buy-modal__gallery-wrapper ttt">
         {%- if product.media.size > 0 -%}
           {%- render 'product-gallery',
               product: product,
@@ -54,9 +54,11 @@ Supported variables
       </div>
 
       <div class="quick-buy-modal__info-wrapper">
-        {%- render 'product-info', product: product, product_form_id: product_form_id, context: 'quick_buy' -%}
+        {%- render 'subscribe-product-info', product: product, product_form_id: product_form_id, context: 'quick_buy' -%}
         <a href="{{ product.url }}" class="quick-buy-modal__view-more link sm-max:hidden">{{ 'product.general.view_details' | t }}</a>
-      </div>
+       </div>
+       
     </product-rerender>
   </div>
+
 </template>

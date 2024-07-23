@@ -1,0 +1,40 @@
+
+{% if product.selected_selling_plan != blank %}
+<div class="rc-widget__wrapper">
+<div class="rc-widget__inner_wrapper">
+<div class="rc__widget_inner_cus">
+{% if product.selling_plan_groups != blank %}
+{% unless product.requires_selling_plan %}
+<div class="rc_radio_wrapper">
+    {% if settings.substext != blank %}
+        <div class="substext gap-2">
+           {{ settings.substext }}
+         </div>
+        {% endif %}
+        <select class="select trigger_sp__select">
+            {% for selling_plan_group in product.selling_plan_groups %}
+                
+                    {% for s_selling_plan in selling_plan_group.selling_plans %}
+                        <option value="{{ s_selling_plan.id }}" class="selling-value">
+                            {% if s_selling_plan.name contains 'Delivery every' %}
+                            Delivery every <strong>{{ s_selling_plan.name | remove: 'Delivery every' }}</strong>
+                            {% else %}
+                            {{ s_selling_plan.name }}
+                            {% endif %}
+                          
+                        </option>
+                       
+                    {% break %}
+                    {% endfor %}
+        
+            {% endfor %}
+        
+        </select>
+</div>
+{% endunless %}
+{% endif %}
+
+</div>
+</div>
+</div>
+{% endif %}
