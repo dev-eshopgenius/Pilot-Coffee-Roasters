@@ -2607,6 +2607,11 @@ onSubmit_fn = async function(event) {
   const formData = new FormData(__privateGet(this, _ProductForm_instances, form_get2));
   formData.set("sections", sectionsToBundle.join(","));
   formData.set("sections_url", `${Shopify.routes.root}variants/${__privateGet(this, _ProductForm_instances, form_get2).id.value}`);
+  const sellingPlanElement = document.getElementById('selling-plan-select');
+  if (sellingPlanElement) {
+    const sellingPlanId = sellingPlanElement.value;
+    formData.set('selling_plan', sellingPlanId);
+  }
   const response = await fetch(`${Shopify.routes.root}cart/add.js`, {
     body: formData,
     method: "POST",
@@ -3141,7 +3146,6 @@ if (!window.customElements.get("product-rerender")) {
 var _QuickBuyModal_instances, onAfterHide_fn;
 var QuickBuyModal = class extends Modal {
   constructor() {
-   
     super();
     __privateAdd(this, _QuickBuyModal_instances);
     if (window.themeVariables.settings.cartType === "drawer") {
@@ -3159,7 +3163,6 @@ var QuickBuyModal = class extends Modal {
     this.replaceChildren(quickBuyContent);
     Shopify?.PaymentButton?.init();
     return super.show();
-    
   }
 };
 _QuickBuyModal_instances = new WeakSet();
@@ -3169,9 +3172,6 @@ onAfterHide_fn = function() {
 if (!window.customElements.get("quick-buy-modal")) {
   window.customElements.define("quick-buy-modal", QuickBuyModal);
 }
-
-
-
 
 // js/common/product/variant-picker.js
 import { Delegate as Delegate5 } from "vendor";
@@ -5683,6 +5683,4 @@ window.rcLoginAccessLink = {
             linkText: "Sign in with a magic link",
         },
     },
-};
-
-
+}; 
