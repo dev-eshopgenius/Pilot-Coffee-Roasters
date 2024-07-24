@@ -2607,6 +2607,11 @@ onSubmit_fn = async function(event) {
   const formData = new FormData(__privateGet(this, _ProductForm_instances, form_get2));
   formData.set("sections", sectionsToBundle.join(","));
   formData.set("sections_url", `${Shopify.routes.root}variants/${__privateGet(this, _ProductForm_instances, form_get2).id.value}`);
+  const sellingPlanElement = document.getElementById('selling-plan-select');
+  if (sellingPlanElement) {
+    const sellingPlanId = sellingPlanElement.value;
+    formData.set('selling_plan', sellingPlanId);
+  }
   const response = await fetch(`${Shopify.routes.root}cart/add.js`, {
     body: formData,
     method: "POST",
@@ -5678,4 +5683,4 @@ window.rcLoginAccessLink = {
             linkText: "Sign in with a magic link",
         },
     },
-};
+}; 

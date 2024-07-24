@@ -828,5 +828,16 @@
         "info": "t:theme_settings.favicon.image_info"
       }
     ]
+  },
+  {
+    "name": "Custom Widget",
+    "settings": [
+      {
+        "type": "text",
+        "id": "substext",
+        "label": "Subscribe Text",
+        "default":"Subscribe:"
+      }
+    ]
   }
 ]

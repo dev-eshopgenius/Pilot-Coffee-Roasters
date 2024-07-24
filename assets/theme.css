@@ -7709,3 +7709,38 @@ ul {
 --rc-secured-display: none;
 --rc-border-radius: 6px;
 }
+
+.subscription-main-collection .collection__main .subscription-product-card .product-card__quick-add-button {
+        position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: transparent;
+    border: none;
+    
+}
+
+
+
+.quick-buy-modal__info-wrapper .rc_radio_wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    margin-top: .5rem;
+}
+.quick-buy-modal__info-wrapper .rc_radio_wrapper select {
+   padding-right:15px;
+   background: url(https://cdn.shopify.com/s/files/1/0875/3043/8934/files/down-arrow.svg?v=1721821524) no-repeat;
+   background-size: 9px;
+   background-position:calc(100% - 13px) center;
+}
+
+
+.subscription-main-collection .collection__main .subscription-product-card .product-card__quick-add-button > span {    position: absolute;
+    display: block;
+    left: 0;
+    right: 0;
+    background: #fff;
+    bottom: 1px;
+    padding: 10px;}

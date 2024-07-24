@@ -284,9 +284,9 @@ Supported variables
                     -%}
                   </div>
                 </div>
+               
               </div>
             {%- endif -%}
-
           {%- when 'line_item_property' -%}
             {%- if block.settings.label != blank -%}
               {%- capture name -%}properties[{{ block.settings.label | escape }}]{%- endcapture -%}
@@ -482,6 +482,7 @@ Supported variables
             {%- endif -%}
 
           {%- when 'button' -%}
+          
             {%- if block.settings.text != blank -%}
               {%- render 'button', href: block.settings.link, content: block.settings.text, stretch: block.settings.stretch, background: block.settings.background, text_color: block.settings.text_color -%}
             {%- endif -%}
@@ -537,6 +538,8 @@ Supported variables
   {%- unless buy_buttons_block != blank or product == blank -%}
     {%- form 'product', product, id: product_form_id, hidden: true -%}
       <input type="hidden" disabled name="id" value="{{ product.selected_or_first_available_variant.id }}">
+     
     {%- endform -%}
   {%- endunless -%}
 </safe-sticky>
+
